@@ -9,8 +9,8 @@ function App() {
 
   return (
     <Router>
-      <div className='font-jetbrains dark:bg-black'>
-        <div className='flex flex-col  h-screen max-w-4xl mx-auto'>
+      <div className='font-jetbrains dark:bg-black dark:text-white'>
+        <div className=' max-w-4xl mx-auto'>
           <div className='sticky top-0'>
             <Header />
           </div>

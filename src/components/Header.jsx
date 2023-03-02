@@ -4,14 +4,12 @@ import ThemeSwitch from '../components/ThemeSwitch'
 import { Navbar, Button } from "flowbite-react";
 
 const Header = () => {
-    const textStyle = `font-normal text-gray-700 tracking-wider transition-color hover:text-yellow-500 text-sm`
 
     return (
         <Navbar
             fluid={true}
             rounded={true}
-
-            className="sticky top-0 z-20 max-w-4xl py-2 gap-1 mx-auto  bg-white md:py-6 md:mb-6 dark:!bg-black"
+            className=" sticky z-20  py-2 gap-1 mx-auto  bg-white md:py-6 md:mb-6 dark:!bg-black"
         >
             <Navbar.Brand>
                 <NavLink to="/">
