@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Router>
-      <div className='flex flex-col space-y-16'>
+      <div className='flex flex-col space-y-16 h-screen  dark:bg-black'>
         <div className='sticky top-0'>
           <Header />
         </div>

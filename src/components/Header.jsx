@@ -11,7 +11,7 @@ const Header = () => {
             fluid={true}
             rounded={true}
 
-            className="sticky top-0 z-20 max-w-4xl py-2 mx-auto bg-white md:py-6 md:mb-6 dark:bg-black"
+            className="sticky top-0 z-20 max-w-4xl py-2 gap-1 mx-auto bg-white md:py-6 md:mb-6 dark:bg-black"
         >
             <Navbar.Brand>
                 <NavLink to="/">
@@ -21,7 +21,7 @@ const Header = () => {
                 </NavLink>
 
             </Navbar.Brand>
-            <div className="flex md:order-2">
+            <div className="flex space-x-1 md:order-2">
                 <ThemeSwitch />
                 <Navbar.Toggle className="-mt-1" />
             </div>
