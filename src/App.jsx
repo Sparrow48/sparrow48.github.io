@@ -9,14 +9,16 @@ function App() {
 
   return (
     <Router>
-      <div className='flex flex-col space-y-16 h-screen  dark:bg-black'>
-        <div className='sticky top-0'>
-          <Header />
+      <div className='font-jetbrains dark:bg-black dark:text-white'>
+        <div className=' max-w-4xl mx-auto'>
+          <div className='sticky top-0'>
+            <Header />
+          </div>
+          <Routes>
+            <Route path={'/*'} element={<Navigation />} />
+          </Routes>
+          <Footer />
         </div>
-        <Routes>
-          <Route path={'/*'} element={<Navigation />} />
-        </Routes>
-        <Footer />
       </div>
     </Router>
   )

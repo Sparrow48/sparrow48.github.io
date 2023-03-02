@@ -22,7 +22,7 @@ const ThemeSwitch = () => {
     }
 
     const onWindowMatch = () => {
-        if (localStorage.theme === "dark" || (!"theme" in localStorage && darkQuery.matches)) {
+        if (localStorage.theme === "dark") {
             element.classList.add('dark')
         } else {
             element.classList.remove('dark')
