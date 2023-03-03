@@ -1,13 +1,5 @@
 {
     "version": 2,
     "name": "nasib",
-    "routes": [
-       { 
-        "src": "/(.*)",
-        "dest": "/" 
-    },
-    {
-      "rewrites": [{ "source": "/(.*)", "destination": "/" }]
-      }
-    ]
+    "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }] 
  }
