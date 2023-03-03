@@ -8,7 +8,13 @@ module.exports = {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        myFont: ['Yantramanav', 'sans-serif'],
+        jetBrains: ['JetBrains Mono', 'monospace'],
+        robotoSerif: ['Roboto Serif', 'serif']
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
