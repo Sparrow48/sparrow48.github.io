@@ -2,8 +2,8 @@ import ProjectCard from './ProjectCard';
 import { projects } from './../store';
 
 function Project() {
-    const renderProjects = projects.map((project, index) => (
-        <ProjectCard key={index} id={index} project={project} />
+    const renderProjects = Object.keys(projects)?.map((key, index) => (
+        <ProjectCard key={index} id={key} project={projects[key]} />
     ));
     return (
         <>

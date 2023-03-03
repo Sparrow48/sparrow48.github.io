@@ -117,8 +117,8 @@ export const skills = [
     },
 ]
 
-export const projects = [
-    {
+export const projects = {
+    "doctor-dekhao": {
         title: 'Doctor Dekhao',
         description: 'Doctor Dekhao is a telemedicine platform that connects patients with doctors.',
         longDescription: 'Doctor Dekhao is a telemedicine platform that connects patients with doctors. Patients can book appointments with doctors and get a consultation from anywhere. Doctors can manage their appointments, patients, and prescriptions.',
@@ -138,7 +138,7 @@ export const projects = [
             companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
         }
     },
-    {
+    "retinaLms": {
         title: 'RetinaLMS',
         description: 'An admission coaching-centric scalable learning management system.',
         longDescription: 'RetinaLMS is a scalable learning management system, with admission, online payment, book distribution, and an online exam system.',
@@ -154,4 +154,4 @@ export const projects = [
             companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
         }
     },
-]
+}
