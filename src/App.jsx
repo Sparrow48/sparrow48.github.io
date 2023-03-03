@@ -9,11 +9,9 @@ function App() {
 
   return (
     <Router>
-      <div className='font-jetbrains dark:bg-black dark:text-white'>
-        <div className=' max-w-4xl mx-auto'>
-          <div className='sticky top-0'>
-            <Header />
-          </div>
+      <div className=' font-robotoSerif min-h-screen dark:bg-black dark:text-white'>
+        <div className='max-w-4xl mx-auto'>
+          <Header />
           <Routes>
             <Route path={'/*'} element={<Navigation />} />
           </Routes>

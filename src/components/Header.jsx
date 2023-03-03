@@ -9,7 +9,7 @@ const Header = () => {
         <Navbar
             fluid={true}
             rounded={true}
-            className=" sticky z-20  py-2 gap-1 mx-auto  bg-white md:py-6 md:mb-6 dark:!bg-black"
+            className=" sticky top-0 z-20  py-2 gap-1 mx-auto  bg-white md:py-6 md:mb-6 dark:!bg-black"
         >
             <Navbar.Brand>
                 <NavLink to="/">
@@ -60,7 +60,6 @@ const Header = () => {
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
-
         // <div className="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-6 dark:bg-black max-w-4xl mx-auto">
         //     <div className='container px-4 mx-auto lg:max-w-4xl flex items-center justify-between'>
         //         <div>

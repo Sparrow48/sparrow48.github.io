@@ -13,7 +13,7 @@ const Experience = () => {
                     Experience
                 </h1>
                 <div className='mt-12 dark:text-white text-gray-700'>
-                    <ol className="-z-10 relative border-l-2 border-gray-200 dark:border-gray-700">
+                    <ol className=" z-0 relative border-l-2 border-gray-200 dark:border-gray-700">
                         {renderExperiences}
                     </ol>
                 </div>
