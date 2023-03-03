@@ -23,8 +23,7 @@ export const experiences = [
         ],
         position: "Software Engineer",
         techStack: ["React.js", "WebSockets", "Redux Toolkit", "AntD", "FCM"],
-        // image: "https://media.licdn.com/dms/image/C4D0BAQH7UK0KghPjAA/company-logo_100_100/0/1519888839489?e=1685577600&v=beta&t=fRziZeM01fZ8B9JZzoqo9QWWv5zT_T_72IrPM4jHNVM"
-        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6LRTWE7K7E3AKE22DGZABRKQQ"
+        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
     }
 ]
 
@@ -32,7 +31,7 @@ export const skills = [
     {
         name: "React",
         level: "expert",
-        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/react.svg?token=GHSAT0AAAAAAB5FQU6KIU5XPBT557TWQZYKZABSABQ",
+        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/react.svg?token=GHSAT0AAAAAAB5FQU6KZD3YI45TJUTG5XXQZABUBCQ",
         exps: "2 years",
     },
     {
@@ -51,7 +50,7 @@ export const skills = [
     {
         name: "JavaScript",
         level: "intermediate",
-        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/js.png?token=GHSAT0AAAAAAB5FQU6LHJUPX5ZRCKYKV7BIZABSHXA",
+        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/js.png?token=GHSAT0AAAAAAB5FQU6KCHJMMVTQCV52LJKQZABUB6Q",
         exps: "2 years",
     },
 
@@ -101,7 +100,7 @@ export const skills = [
     {
         name: "Node.js",
         level: "beginner",
-        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/node.png?token=GHSAT0AAAAAAB5FQU6KX4SOJU5FW4ZCS37AZABSGEQ",
+        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/node.png?token=GHSAT0AAAAAAB5FQU6KVR6BJYJLXOCXAIG2ZABUC2Q",
         exps: "beginner",
     },
     {
@@ -115,5 +114,44 @@ export const skills = [
         level: "beginner",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/mongodb.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A",
         exps: "3 months",
+    },
+]
+
+export const projects = [
+    {
+        title: 'Doctor Dekhao',
+        description: 'Doctor Dekhao is a telemedicine platform that connects patients with doctors.',
+        longDescription: 'Doctor Dekhao is a telemedicine platform that connects patients with doctors. Patients can book appointments with doctors and get a consultation from anywhere. Doctors can manage their appointments, patients, and prescriptions.',
+        workDescriptions: [
+            "Developing scalable Telemedicine applications with cutting-edge technology",
+            "Optimize application for maximum speed and scalability.",
+            "Developing new features and integrate RESTful APIs.",
+            'Collaborated with back - end developers to integrate APIs in the user interface',
+            'Integrate a video calling feature using Zoom Video SDK.',
+            'Integrate a notification system using WebSocket and FCM.',
+            'Developed a system for doctors to manage their appointments, patients, prescriptions.',
+        ],
+        techStack: ['React', 'Redux Toolkit', 'AntD', 'WebSocket', 'FCM'],
+        link: 'https://doctordekhao.com.bd',
+        associatedWith: {
+            companyName: "Durbin Labs Ltd.",
+            companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
+        }
+    },
+    {
+        title: 'RetinaLMS',
+        description: 'An admission coaching-centric scalable learning management system.',
+        longDescription: 'RetinaLMS is a scalable learning management system, with admission, online payment, book distribution, and an online exam system.',
+        workDescriptions: [
+            "Optimize application for maximum speed and scalability.",
+            "Developing new features and integrate RESTful APIs.",
+            "Fixed existing bugs."
+        ],
+        techStack: ['React', 'Redux Toolkit', 'AntD'],
+        link: 'https://retinalms.com',
+        associatedWith: {
+            companyName: "Durbin Labs Ltd.",
+            companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
+        }
     },
 ]
