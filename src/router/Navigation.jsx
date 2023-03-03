@@ -5,6 +5,7 @@ import Experience from '../pages/Experience';
 import Skills from '../pages/Skills';
 import Projects from '../pages/Projects';
 import ProjectDetails from '../components/ProjectDetails';
+import Certificates from '../pages/Certificates';
 
 const Navigation = () => {
     return (
@@ -15,6 +16,7 @@ const Navigation = () => {
                 <Route exact path={'/skills'} element={<Skills />} />
                 <Route exact path={'/projects'} element={<Projects />} />
                 <Route exact path={'/projects/:_id'} element={<ProjectDetails />} />
+                <Route exact path={'/certifications'} element={<Certificates />} />
             </Routes>
         </div>
     )

@@ -32,13 +32,13 @@ export const skills = [
         name: "React",
         level: "expert",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/react.svg?token=GHSAT0AAAAAAB5FQU6KZD3YI45TJUTG5XXQZABUBCQ",
-        exps: "2 years",
+        exps: "1 years",
     },
     {
         name: "Redux Toolkit",
         level: "expert",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/reduxToolkit.png?token=GHSAT0AAAAAAB5FQU6LT64WSWI2XVT7VM76ZABTCPA",
-        exps: "2 years",
+        exps: "1 years",
     },
 
     {
@@ -144,7 +144,8 @@ export const projects = {
         longDescription: 'RetinaLMS is a scalable learning management system, with admission, online payment, book distribution, and an online exam system.',
         workDescriptions: [
             "Optimize application for maximum speed and scalability.",
-            "Developing new features and integrate RESTful APIs.",
+            "Develop new features and functionality on the website.",
+            "Integrate RESTful APIs.",
             "Fixed existing bugs."
         ],
         techStack: ['React', 'Redux Toolkit', 'AntD'],
@@ -155,3 +156,21 @@ export const projects = {
         }
     },
 }
+
+const issuer = {
+    udemy: {
+        NAME: "Udemy",
+        IMAGE: "https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1685577600&v=beta&t=JXMAOg5CubQBVlGK0m4M4acDFEtkGpE6qkLDsFvHmNg",
+    },
+}
+
+export const certificates = [
+    {
+        title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+        issuer: issuer.udemy.NAME,
+        issuerImage: issuer.udemy.IMAGE,
+        issueDate: "February 08, 2022",
+        certLink: "https://www.udemy.com/certificate/UC-17d3a0eb-dc75-4c79-a46a-dc34f374b7e7/",
+        skills: ["react", "redux", "rtk-query", "javascript", "frontend"],
+    },
+]
