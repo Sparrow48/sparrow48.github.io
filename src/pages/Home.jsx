@@ -32,7 +32,7 @@ const Home = () => {
                         <Link to={'https://github.com/Sparrow48'} className=" py-2 px-4 bg-gray-400 rounded-md text-2xl" target="_blank"><BsGithub /></Link>
                         <Link to={'https://www.linkedin.com/in/nasib48/'} className=" ml-2 py-2 px-4 bg-gray-400 rounded-md text-2xl" target="_blank"><BsLinkedin /></Link>
                         <Link to={'mailto: abunasib48@gmail.com'} className=" ml-2 py-2 px-4 bg-gray-400 rounded-md text-2xl" target="_blank"><SiGmail /></Link>
-                        <Link to={'https://drive.google.com/file/d/18YZxHzZmDjPPp6cXTTxNPaAp6O0Fr5Wb/view?usp=sharing'} className=" ml-2 py-2 px-4 bg-gray-400 rounded-md text-2xl" target="_blank"><BsFillFileEarmarkPdfFill /></Link>
+                        <Link to={'https://drive.google.com/file/d/1x1tovoRKfgdAXmCpqtoLnoGLAtmXbeg_/view?usp=sharing'} className=" ml-2 py-2 px-4 bg-gray-400 rounded-md text-2xl" target="_blank"><BsFillFileEarmarkPdfFill /></Link>
                     </div>
                 </div>
             </div>
