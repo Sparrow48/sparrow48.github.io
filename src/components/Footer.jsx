@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className='flex gap-4 '>
                     <Link className=' hover:text-yellow-400' to={'https://github.com/Sparrow48'} target="_blank">Github</Link>
                     <Link className=' hover:text-yellow-400' to={'https://www.linkedin.com/in/nasib48/'} target="_blank">LinkedIn</Link>
-                    <Link className=' hover:text-yellow-400' to={'https://drive.google.com/file/d/18YZxHzZmDjPPp6cXTTxNPaAp6O0Fr5Wb/view?usp=sharing'} target="_blank">Resume</Link>
+                    <Link className=' hover:text-yellow-400' to={'https://drive.google.com/file/d/1x1tovoRKfgdAXmCpqtoLnoGLAtmXbeg_/view?usp=sharing'} target="_blank">Resume</Link>
                 </div>
             </div>
         </div>
