@@ -131,7 +131,7 @@ export const projects = {
             'Integrate a notification system using WebSocket and FCM.',
             'Developed a system for doctors to manage their appointments, patients, prescriptions.',
         ],
-        techStack: ['React', 'Redux Toolkit', 'AntD', 'WebSocket', 'FCM'],
+        techStack: ['React.js', 'Redux Toolkit', 'AntD', 'WebSocket', 'FCM'],
         link: 'https://doctordekhao.com.bd',
         associatedWith: {
             companyName: "Durbin Labs Ltd.",
@@ -148,7 +148,7 @@ export const projects = {
             "Integrate RESTful APIs.",
             "Fixed existing bugs."
         ],
-        techStack: ['React', 'Redux Toolkit', 'AntD'],
+        techStack: ['React.js', 'Redux Toolkit', 'AntD'],
         link: 'https://retinalms.com',
         associatedWith: {
             companyName: "Durbin Labs Ltd.",
@@ -165,7 +165,7 @@ export const projects = {
             "Implemented data storage solutions using MongoDB.",
             "Integrate RESTful APIs.",
         ],
-        techStack: ['Express', 'React', 'MongoDB', 'Redux Toolkit', 'Tailwind'],
+        techStack: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Redux Toolkit', 'Tailwind CSS'],
         link: 'https://e-shop-one-rho.vercel.app/',
         associatedWith: {
             companyName: "",
