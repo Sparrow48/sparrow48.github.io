@@ -155,6 +155,23 @@ export const projects = {
             companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
         }
     },
+    "e-shop": {
+        title: 'e-shop',
+        description: 'An e-commerce site.',
+        longDescription: 'A typical e-commerce website where users can create accounts and make purchase requests for products. Users can view their purchase history. Anyone can create a list using the add to card option and after logging into the system the user can request a purchase of the cart list through the checkout option.',
+        workDescriptions: [
+            "Developed both front-end and back-end by me.",
+            "Developed RESTful APIs using JavaScript’s expressJs framework",
+            "Implemented data storage solutions using MongoDB.",
+            "Integrate RESTful APIs.",
+        ],
+        techStack: ['Express', 'React', 'MongoDB', 'Redux Toolkit', 'Tailwind'],
+        link: 'https://e-shop-one-rho.vercel.app/',
+        associatedWith: {
+            companyName: "",
+            companyLogo: ""
+        }
+    },
 }
 
 const issuer = {
