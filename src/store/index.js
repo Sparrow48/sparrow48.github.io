@@ -1,6 +1,3 @@
-import DLL from './../assets/DLL.jpeg'
-import eDok from './../assets/eDok.png'
-
 export const about = {
     name: "Md Abu Nasib",
     jobDescription: "a software developer from Bangladesh. Currently working as a Software Engineer at",
@@ -14,6 +11,18 @@ export const about = {
 
 export const experiences = [
     {
+        companyName: "eDoktor",
+        startDate: "June 2023",
+        endDate: "Present",
+        descriptions: [
+            "Developing scalable Telemedicine applications with cutting-edge technology",
+            "Fixing bugs in existing project.",
+        ],
+        position: "Software Engineer",
+        techStack: ["React.js", "Socket.io", "Redux Toolkit", "AntD", "FCM"],
+        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/eDok.png"
+    },
+    {
         companyName: "Durbin Labs Ltd.",
         startDate: "May 2022",
         endDate: "May 2023",
@@ -26,19 +35,6 @@ export const experiences = [
         techStack: ["React.js", "Socket.io", "Redux Toolkit", "AntD", "FCM"],
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
     },
-    {
-        companyName: "eDoktor",
-        startDate: "June 2023",
-        endDate: "Present",
-        // descriptions: [
-        //     "Developing scalable Telemedicine applications with cutting-edge technology",
-        //     "Optimize application for maximum speed and scalability.",
-        //     "Developing new features and integrate RESTful APIs."
-        // ],
-        position: "Software Engineer",
-        techStack: ["React.js", "Socket.io", "Redux Toolkit", "AntD", "FCM"],
-        image: { eDok }
-    }
 ]
 
 export const skills = [
@@ -127,7 +123,7 @@ export const skills = [
         name: "MongoDB",
         level: "beginner",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/mongodb.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A",
-        exps: "3 months",
+        exps: "beginner",
     },
 ]
 
