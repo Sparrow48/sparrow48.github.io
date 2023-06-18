@@ -19,7 +19,7 @@ const ExperienceItem = ({ experience }) => {
             </h3>
             <p className="mb-4 text-base font-bold text-gray-500 dark:text-gray-400">{companyName}</p>
             <ul className="ml-1 text-base font-normal text-gray-500 dark:text-gray-400">
-                {descriptions.map((description, index) => {
+                {descriptions?.map((description, index) => {
                     return (
                         <JobDescription
                             key={index}

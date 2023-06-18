@@ -1,13 +1,14 @@
 import DLL from './../assets/DLL.jpeg'
+import eDok from './../assets/eDok.png'
 
 export const about = {
     name: "Md Abu Nasib",
     jobDescription: "a software developer from Bangladesh. Currently working as a Software Engineer at",
     company: {
-        name: "Durbin Labs Ltd.",
-        link: "https://durbinlabs.com",
+        name: "eDoctor",
+        link: "https://edoktor.rs/",
     },
-    description: "I have 1 year of experience in developing software using React, Redux and Antd.",
+    description: "I have over 1 year of experience in developing software using React, Redux and Antd.",
     opening: "Looking for an opportunity where I can use my skills to contribute to an organization’s development team.",
 }
 
@@ -15,15 +16,28 @@ export const experiences = [
     {
         companyName: "Durbin Labs Ltd.",
         startDate: "May 2022",
-        endDate: "Present",
+        endDate: "May 2023",
         descriptions: [
             "Developing scalable Telemedicine applications with cutting-edge technology",
             "Optimize application for maximum speed and scalability.",
             "Developing new features and integrate RESTful APIs."
         ],
         position: "Software Engineer",
-        techStack: ["React.js", "WebSockets", "Redux Toolkit", "AntD", "FCM"],
+        techStack: ["React.js", "Socket.io", "Redux Toolkit", "AntD", "FCM"],
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
+    },
+    {
+        companyName: "eDoktor",
+        startDate: "June 2023",
+        endDate: "Present",
+        // descriptions: [
+        //     "Developing scalable Telemedicine applications with cutting-edge technology",
+        //     "Optimize application for maximum speed and scalability.",
+        //     "Developing new features and integrate RESTful APIs."
+        // ],
+        position: "Software Engineer",
+        techStack: ["React.js", "Socket.io", "Redux Toolkit", "AntD", "FCM"],
+        image: { eDok }
     }
 ]
 
