@@ -46,13 +46,13 @@ const ProjectDetails = () => {
                     <span className='lg:text-3xl cursor-pointer   mt-2 mr-4 ease-in-out'>
                         <BsArrowLeftCircle className='hover:bg-slate-700 hover:rounded-full hover:text-white ' onClick={goBack} />
                     </span>
-                    {project.title}
+                    {project?.title}
                 </h1>
                 {/* Associated with company name with pic */}
                 {associatedWithView()}
                 {/* subtitle of the project */}
                 <p className="mt-4 text-sm font-medium text-gray-900 dark:text-gray-100">
-                    {project.longDescription}
+                    {project?.longDescription}
                 </p>
 
                 {/* project contribution list */}
@@ -107,8 +107,8 @@ const ProjectDetails = () => {
                             <h3 className="text-lg font-medium text-gray-900 dark:text-white">Links</h3>
                             <ul className="mt-2 text-sm text-gray-500 dark:text-gray-400">
                                 <li>
-                                    <a href={project.link} target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">
-                                        {project.link}
+                                    <a href={project?.link} target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">
+                                        {project?.link}
                                     </a>
                                 </li>
                             </ul>

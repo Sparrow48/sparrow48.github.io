@@ -5,7 +5,7 @@ export const about = {
         name: "eDoctor",
         link: "https://edoktor.rs/",
     },
-    description: "I have over 1 year of experience in developing software using React, Redux and Antd.",
+    description: "I have over 1.5 years of experience in developing software using React.js, Redux, Antd Nest.js and TypeScript.",
     opening: "Looking for an opportunity where I can use my skills to contribute to an organization’s development team.",
 }
 
@@ -16,14 +16,15 @@ export const experiences = [
         endDate: "Present",
         descriptions: [
             "Developing scalable Telemedicine applications with cutting-edge technology",
-            "Fixing bugs in existing project.",
+            "Developed both doctor and admin front-end web applications.",
+            "Resolved issues and developed REST APIs using TypeScript and Nest.js",
         ],
         position: "Software Engineer",
-        techStack: ["React.js", "Socket.io", "Redux Toolkit", "AntD", "FCM"],
+        techStack: ["React.js", "Socket.io", "Redux Toolkit", "AntD", "FCM", 'Nest.js','TypeScript', 'MongoDB'],
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/eDok.png"
     },
     {
-        companyName: "Durbin Labs Ltd.",
+        companyName: "Durbin Healthtech",
         startDate: "May 2022",
         endDate: "May 2023",
         descriptions: [
@@ -33,7 +34,7 @@ export const experiences = [
         ],
         position: "Software Engineer",
         techStack: ["React.js", "Socket.io", "Redux Toolkit", "AntD", "FCM"],
-        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
+        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DHT.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A"
     },
 ]
 
@@ -42,26 +43,26 @@ export const skills = [
         name: "React",
         level: "expert",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/react.svg?token=GHSAT0AAAAAAB5FQU6KZD3YI45TJUTG5XXQZABUBCQ",
-        exps: "1 years",
+        exps: "2 years",
     },
     {
         name: "Redux Toolkit",
         level: "expert",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/reduxToolkit.png?token=GHSAT0AAAAAAB5FQU6LT64WSWI2XVT7VM76ZABTCPA",
-        exps: "1 years",
+        exps: "2 years",
     },
 
     {
         name: "Git",
         level: "expert",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/git-logo.png?token=GHSAT0AAAAAAB5FQU6LS36M4E2SQWMFARRUZABTB2A",
-        exps: "3 years",
+        exps: "3.5 years",
     },
     {
         name: "JavaScript",
         level: "intermediate",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/js.png?token=GHSAT0AAAAAAB5FQU6KCHJMMVTQCV52LJKQZABUB6Q",
-        exps: "2 years",
+        exps: "2.5 years",
     },
 
     {
@@ -75,77 +76,90 @@ export const skills = [
         name: "Tailwind",
         level: "intermediate",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/tailwind.png?token=GHSAT0AAAAAAB5FQU6KGRPCIWINKLXABXCUZABSSAQ",
-        exps: "1 years",
+        exps: "1.5 years",
     },
     {
         name: "AntD",
         level: "intermediate",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/antD.png?token=GHSAT0AAAAAAB5FQU6L7YERMH3UFAXUWHAOZABSSCA",
-        exps: "1 years",
+        exps: "1.5 years",
     },
     {
         name: "WebSocket",
         level: "intermediate",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/webSocket.png?token=GHSAT0AAAAAAB5FQU6LMWKWWRYKVWGC2HV2ZABSSBA",
-        exps: "1 year",
+        exps: "1.5 year",
     },
     {
         name: "HTML",
         level: "expert",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/htmlLogo.png?token=GHSAT0AAAAAAB5FQU6LSQVRX4SQEKHQMY3QZABTCFQ",
-        exps: "2 years",
+        exps: "2.5 years",
     },
     {
         name: "CSS",
         level: "expert",
         image: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
-        exps: " 2 years",
+        exps: " 2.5 years",
     },
     {
         name: "Linux",
         level: "expert",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/linux.png?token=GHSAT0AAAAAAB5FQU6KV4IVR3B66UPW5VCKZABTCNQ",
-        exps: "4 years",
+        exps: "4.5 years",
     },
     {
         name: "Node.js",
         level: "beginner",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/node.png?token=GHSAT0AAAAAAB5FQU6KVR6BJYJLXOCXAIG2ZABUC2Q",
-        exps: "beginner",
+        exps: "1 year",
     },
     {
         name: "Express.js",
         level: "beginner",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/express.png?token=GHSAT0AAAAAAB5FQU6KWIWH7EJCISRGFJACZABTBQA",
-        exps: "beginner",
+        exps: "1 year",
     },
     {
         name: "MongoDB",
         level: "beginner",
         image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/mongodb.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A",
-        exps: "beginner",
+        exps: "1 year",
+    },
+    {
+        name: "Nest.js",
+        level: "beginner",
+        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/nest.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A",
+        exps: "6 months",
+    },
+    {
+        name: "TypeScript",
+        level: "beginner",
+        image: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/TS.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A",
+        exps: "6 months",
     },
 ]
 
 export const projects = {
-    "doctor-dekhao": {
-        title: 'Doctor Dekhao',
-        description: 'Doctor Dekhao is a telemedicine platform that connects patients with doctors.',
-        longDescription: 'Doctor Dekhao is a telemedicine platform that connects patients with doctors. Patients can book appointments with doctors and get a consultation from anywhere. Doctors can manage their appointments, patients, and prescriptions.',
+    "eDoktor": {
+        title: 'eDoktor',
+        description: 'eDoktor is a telemedicine platform that connects patients with doctors.',
+        longDescription: 'eDoktor is a telemedicine platform that connects patients with doctors. Patients can book appointments with doctors and get a consultation from anywhere. Doctors can manage their appointments, patients, and prescriptions.',
         workDescriptions: [
             "Developing scalable Telemedicine applications with cutting-edge technology",
             "Optimize application for maximum speed and scalability.",
-            "Developing new features and integrate RESTful APIs.",
-            'Collaborated with back - end developers to integrate APIs in the user interface',
+            "Developed both doctor and admin front-end web applications.",
+            "Integrate RESTful APIs.",
+            "Resolved issues and developed REST APIs using TypeScript and Nest.js",
             'Integrate a video calling feature using Zoom Video SDK.',
             'Integrate a notification system using WebSocket and FCM.',
             'Developed a system for doctors to manage their appointments, patients, prescriptions.',
         ],
-        techStack: ['React.js', 'Redux Toolkit', 'AntD', 'WebSocket', 'FCM'],
-        link: 'https://doctordekhao.com.bd',
+        techStack: ['React.js', 'Redux Toolkit', 'AntD', 'WebSocket', 'FCM', 'Nest.js','TypeScript', 'MongoDB'],
+        link: 'https://edoktor.rs/',
         associatedWith: {
-            companyName: "Durbin Labs Ltd.",
-            companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
+            companyName: "eDoktor.",
+            companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/eDok.png"
         }
     },
     "retinaLms": {
@@ -162,7 +176,7 @@ export const projects = {
         link: 'https://retinalms.com',
         associatedWith: {
             companyName: "Durbin Labs Ltd.",
-            companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DLL.jpeg?token=GHSAT0AAAAAAB5FQU6KHY2ZTU2W7P6KMCRSZABTEKA"
+            companyLogo: "https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DHT.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A"
         }
     },
     "e-shop": {
