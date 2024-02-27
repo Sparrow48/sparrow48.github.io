@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const { name, jobDescription, company, description, opening } = about;
+
   return (
     <div className="container mx-auto leading-7">
       <div className=" lg:px-4 lg:space-x-5 lg:mt-12 flex lg:flex-row flex-col-reverse dark:text-white lg:text-left">
