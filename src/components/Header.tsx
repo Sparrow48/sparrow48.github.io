@@ -61,7 +61,7 @@ export default function Header() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/certification">
+          <Link color="foreground" href="/certifications">
             Certifications
           </Link>
         </NavbarItem>
