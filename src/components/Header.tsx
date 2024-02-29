@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import {
   Navbar,
@@ -16,20 +17,29 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    'Profile',
-    'Dashboard',
-    'Activity',
-    'Analytics',
-    'System',
-    'Deployments',
-    'My Settings',
-    'Team Settings',
-    'Help & Feedback',
-    'Log Out',
+    <Link color="foreground" href="/">
+      Home
+    </Link>,
+    <Link color="foreground" href="/experience">
+      Experience
+    </Link>,
+    <Link color="foreground" href="/skills">
+      Skills
+    </Link>,
+    <Link color="foreground" href="/projects">
+      Projects
+    </Link>,
+    <Link color="foreground" href="/certifications">
+      Certifications
+    </Link>,
   ];
 
   return (
-    <Navbar className="py-2" onMenuOpenChange={setIsMenuOpen}>
+    <Navbar
+      className="py-2"
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+    >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
@@ -75,24 +85,29 @@ export default function Header() {
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              color={
-                index === 2
-                  ? 'primary'
-                  : index === menuItems.length - 1
-                  ? 'danger'
-                  : 'foreground'
-              }
-              className="w-full"
-              href="#"
-              // size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
+        <div className="pt-3">
+          {menuItems.map((item, index) => (
+            <div className="pt-1">
+              <NavbarMenuItem
+                key={`${item}-${index}`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <div
+                  color={
+                    index === 2
+                      ? 'primary'
+                      : index === menuItems.length - 1
+                      ? 'danger'
+                      : 'foreground'
+                  }
+                  className="w-full"
+                >
+                  {item}
+                </div>
+              </NavbarMenuItem>
+            </div>
+          ))}
+        </div>
       </NavbarMenu>
     </Navbar>
   );

@@ -1,10 +1,10 @@
 'use client';
 import { Inter } from 'next/font/google';
-import './globals.css';
 import { NextUIProvider } from '@nextui-org/react';
+import { ThemeProvider as NextThemesProvider } from 'next-themes';
+import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { ThemeProvider as NextThemesProvider } from 'next-themes';
 
 const inter = Inter({ subsets: ['latin'] });
 
