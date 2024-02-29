@@ -10,6 +10,7 @@ import {
   Button,
 } from '@nextui-org/react';
 import Link from 'next/link';
+import { ThemeSwitcher } from './ThemeSwitcher';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -70,9 +71,7 @@ export default function Header() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
+          <ThemeSwitcher />
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>
