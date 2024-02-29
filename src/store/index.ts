@@ -1,4 +1,13 @@
-export const about = {
+import {
+  About,
+  Certificate,
+  Experience,
+  Issuer,
+  Project,
+  Skill,
+} from '@/@types';
+
+export const about: About = {
   name: 'Md Abu Nasib',
   jobDescription:
     'a software developer from Bangladesh. Currently working as a Software Engineer at',
@@ -12,7 +21,7 @@ export const about = {
     'Looking for an opportunity where I can use my skills to contribute to an organization’s development team.',
 };
 
-export const experiences = [
+export const experiences: Experience[] = [
   {
     companyName: 'eDoktor',
     startDate: 'June 2023',
@@ -53,7 +62,7 @@ export const experiences = [
   },
 ];
 
-export const skills = [
+export const skills: Skill[] = [
   {
     name: 'React',
     level: 'expert',
@@ -171,7 +180,7 @@ export const skills = [
   },
 ];
 
-export const projects = {
+export const projects: Record<string, Project> = {
   eDoktor: {
     title: 'eDoktor',
     description:
@@ -253,15 +262,15 @@ export const projects = {
   },
 };
 
-const issuer = {
+const issuer: Record<string, Issuer> = {
   udemy: {
     NAME: 'Udemy',
     IMAGE:
-      'https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1685577600&v=beta&t=JXMAOg5CubQBVlGK0m4M4acDFEtkGpE6qkLDsFvHmNg',
+      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/eDok.png', // need to use udemy logo
   },
 };
 
-export const certificates = [
+export const certificates: Certificate[] = [
   {
     title: 'React - The Complete Guide (incl Hooks, React Router, Redux)',
     issuer: issuer.udemy.NAME,
@@ -270,5 +279,14 @@ export const certificates = [
     certLink:
       'https://www.udemy.com/certificate/UC-17d3a0eb-dc75-4c79-a46a-dc34f374b7e7/',
     skills: ['react', 'redux', 'rtk-query', 'javascript', 'frontend'],
+  },
+  {
+    title: `Next JS: The Complete Developer's Guide`,
+    issuer: issuer.udemy.NAME,
+    issuerImage: issuer.udemy.IMAGE,
+    issueDate: 'February 24, 2024 ',
+    certLink:
+      'https://www.udemy.com/certificate/UC-30312d29-0526-493a-840b-b26f8fdab3fe/',
+    skills: ['react', 'next', 'javascript', 'frontend'],
   },
 ];

@@ -1,9 +1,18 @@
-const Skill = ({ skill }: any) => {
+import { Skill } from '@/@types';
+
+interface SkillProps {
+  skill: Skill;
+  key: number;
+}
+
+const Skill = ({ skill, key }: SkillProps) => {
   const { name, exps, image, level } = skill;
   return (
     <>
-      {/* Generate JS skill square badge with Next.js */}
-      <div className="flex justify-items-center max-w-md mb-2 mr-2 border-2 border-gray-500 rounded-md p-2">
+      <div
+        key={key}
+        className="flex justify-items-center max-w-md mb-2 mr-2 border-2 border-gray-500 rounded-md p-2"
+      >
         <img
           src={image}
           alt={name}

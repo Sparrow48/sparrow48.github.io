@@ -35,7 +35,9 @@ export default function Header() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit">MD. ABU NASIB</p>
+          <Link color="foreground" href="/">
+            <p className="font-bold text-inherit">MD. ABU NASIB</p>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 

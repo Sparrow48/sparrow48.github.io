@@ -6,13 +6,14 @@ import { SiGmail } from 'react-icons/si';
 import Profile from './../assets/Profile.jpg';
 import { about } from '../store';
 import Image from 'next/image';
+import { About } from '@/@types';
 
 export const metadata: Metadata = {
   title: 'Nasib',
 };
 
 export default function Home() {
-  const { name, jobDescription, company, description, opening } = about;
+  const { name, jobDescription, company, description, opening }: About = about;
 
   return (
     <div className="container mx-auto leading-7">

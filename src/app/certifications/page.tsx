@@ -1,3 +1,4 @@
+import { Certificate } from '@/@types';
 import CertificationCard from '@/components/CertificationCard';
 import { certificates } from '@/store';
 import { Metadata } from 'next';
@@ -8,9 +9,11 @@ export const metadata: Metadata = {
 };
 
 const Certificates = () => {
-  const renderedCertificate = certificates.map((certification, index) => (
-    <CertificationCard key={index} id={index} certification={certification} />
-  ));
+  const renderedCertificate = certificates.map(
+    (certification: Certificate, index) => (
+      <CertificationCard key={index} id={index} certification={certification} />
+    )
+  );
   return (
     <>
       <section className="px-4 mb-10 mt-20 text-left">

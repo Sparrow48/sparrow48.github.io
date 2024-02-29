@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 };
 
 const Experience = () => {
-  const renderExperiences = experiences.map((experience) => {
-    return <ExperienceCard experience={experience} />;
+  const renderExperiences = experiences.map((experience, index) => {
+    return <ExperienceCard experience={experience} key={index} />;
   });
   return (
     <div className="container px-4 mx-auto leading-7 mt-20">

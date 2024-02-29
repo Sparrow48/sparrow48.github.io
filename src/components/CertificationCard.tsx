@@ -1,12 +1,34 @@
-const CertificationCard = ({ certification }: any) => {
+import { Certificate } from '@/@types';
+import Image from 'next/image';
+
+interface CertificationCardProps {
+  certification: Certificate;
+  id: number;
+  key: number;
+}
+
+const CertificationCard = ({
+  certification,
+  id,
+  key,
+}: CertificationCardProps) => {
   const { title, issuer, issuerImage, issueDate, certLink } = certification;
   return (
     <>
-      <div className="sm:max-w-sm lg:max-w-md mt-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-900 dark:border-gray-700 transition ease-in-out delay-150 hover:border-dashed hover:bg-slate-100 text-left">
+      <div
+        key={key}
+        className="sm:max-w-sm lg:max-w-md mt-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-900 dark:border-gray-700 transition ease-in-out delay-150 hover:border-dashed hover:bg-slate-100 text-left"
+      >
         <div className="p-4">
           <div className="flex items-center">
             <div className="p-1 mr-4 text-white bg-white rounded-md dark:bg-white h-18 w-18">
-              <img src={issuerImage} alt="" className="max-h-xs max-w-xs" />
+              <Image
+                src={issuerImage}
+                alt=""
+                className="max-h-xs max-w-xs"
+                width={75}
+                height={75}
+              />
             </div>
             <div>
               <p className="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">

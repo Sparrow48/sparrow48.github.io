@@ -5,21 +5,13 @@ import { FaTools } from 'react-icons/fa';
 import { projects } from '@/store';
 import TechItem from '@/components/TechItem';
 import Head from 'next/head';
+import { Project } from '@/@types';
 
-interface Project {
-  title: string;
-  description: string;
-  longDescription: string;
-  workDescriptions: string[];
-  techStack: string[];
-  link: string;
-  associatedWith: {
-    companyName: string;
-    companyLogo: string;
-  };
+interface ProjectDetailsProps {
+  id: string;
 }
 
-const ProjectDetails = ({ id }: any) => {
+const ProjectDetails = ({ id }: ProjectDetailsProps) => {
   const [project, setProject] = useState<Project | null>(null);
 
   useEffect(() => {

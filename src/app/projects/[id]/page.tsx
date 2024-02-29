@@ -1,15 +1,13 @@
 import ProjectDetails from '@/components/ProjectDetails';
-import type { Metadata, ResolvingMetadata } from 'next';
+import type { Metadata } from 'next';
 
-type Props = {
+interface ProjectProps {
   params: { id: string };
-};
+}
 
-export async function generateMetadata(
-  { params }: Props,
-  parent: ResolvingMetadata
-): Promise<Metadata> {
-  // read route params
+export async function generateMetadata({
+  params,
+}: ProjectProps): Promise<Metadata> {
   const id = params.id;
 
   return {
@@ -17,7 +15,7 @@ export async function generateMetadata(
   };
 }
 
-const Project = ({ params }: any) => {
+const Project = ({ params }: ProjectProps) => {
   const { id } = params;
 
   return (

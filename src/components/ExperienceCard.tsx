@@ -1,8 +1,14 @@
 import React from 'react';
 import JobDescription from './JobDescription';
 import TechItem from './TechItem';
+import { Experience } from '@/@types';
 
-const ExperienceCard = ({ experience }: any) => {
+interface ExperienceCardProps {
+  experience: Experience;
+  key: number;
+}
+
+const ExperienceCard = ({ experience, key }: ExperienceCardProps) => {
   const {
     companyName,
     startDate,
@@ -13,7 +19,7 @@ const ExperienceCard = ({ experience }: any) => {
     image,
   } = experience;
   return (
-    <li className=" mb-10 ml-10">
+    <li key={key} className=" mb-10 ml-10">
       <span className=" absolute flex items-center justify-center w-8 h-8 bg-white rounded-full -left-3 ring-4 ring-gray-200 dark:ring-gray-700 dark:bg-white">
         <img className="rounded-full shadow-lg px-1 py-1" src={image} alt="" />
       </span>
@@ -41,12 +47,12 @@ const ExperienceCard = ({ experience }: any) => {
         {companyName}
       </p>
       <ul className="ml-1 text-base font-normal text-gray-500 dark:text-gray-400">
-        {descriptions?.map((description: any, index: any) => {
+        {descriptions?.map((description, index) => {
           return <JobDescription key={index} description={description} />;
         })}
       </ul>
       <ul className="flex flex-wrap mt-4 text-sm font-normal text-gray-500 dark:text-white">
-        {techStack.map((tech: any, index: any) => {
+        {techStack.map((tech, index) => {
           return <TechItem key={index} tech={tech}></TechItem>;
         })}
       </ul>
