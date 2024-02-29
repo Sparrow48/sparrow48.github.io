@@ -1,6 +1,11 @@
 import Skill from '@/components/Skills';
 import { skills } from '@/store';
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'Skills',
+};
 
 const Skills = () => {
   const renderSkills = skills.map((skill, index) => {

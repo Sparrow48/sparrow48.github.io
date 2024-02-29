@@ -1,6 +1,11 @@
 import CertificationCard from '@/components/CertificationCard';
 import { certificates } from '@/store';
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'Certifications',
+};
 
 const Certificates = () => {
   const renderedCertificate = certificates.map((certification, index) => (

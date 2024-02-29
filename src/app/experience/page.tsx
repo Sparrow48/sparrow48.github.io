@@ -1,6 +1,11 @@
 import React from 'react';
 import { experiences } from '@/store';
 import ExperienceCard from '@/components/ExperienceCard';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Experience',
+};
 
 const Experience = () => {
   const renderExperiences = experiences.map((experience) => {
