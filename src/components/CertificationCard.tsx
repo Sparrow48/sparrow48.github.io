@@ -1,5 +1,6 @@
 import { Certificate } from '@/@types';
 import Image from 'next/image';
+import udemy from './../assets/udemy.png';
 
 interface CertificationCardProps {
   certification: Certificate;
@@ -23,7 +24,7 @@ const CertificationCard = ({
           <div className="flex items-center">
             <div className="p-1 mr-4 text-white bg-white rounded-md dark:bg-white h-18 w-18">
               <Image
-                src={issuerImage}
+                src={udemy}
                 alt=""
                 className="max-h-xs max-w-xs"
                 width={75}

@@ -6,6 +6,7 @@ import { projects } from '@/store';
 import TechItem from '@/components/TechItem';
 import Head from 'next/head';
 import { Project } from '@/@types';
+import Link from 'next/link';
 
 interface ProjectDetailsProps {
   id: string;
@@ -51,12 +52,15 @@ const ProjectDetails = ({ id }: ProjectDetailsProps) => {
       </Head>
       <section className="px-4 mb-10 mt-20 text-left">
         <h1 className="flex text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white text-left mb-3">
-          <span className="lg:text-3xl cursor-pointer   mt-2 mr-4 ease-in-out">
+          <Link
+            href="/projects"
+            className="lg:text-3xl cursor-pointer   mt-2 mr-4 ease-in-out"
+          >
             <BsArrowLeftCircle
               className="hover:bg-slate-700 hover:rounded-full hover:text-white "
               onClick={goBack}
             />
-          </span>
+          </Link>
           {project?.title}
         </h1>
         {/* Associated with company name with pic */}
