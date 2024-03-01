@@ -2,12 +2,12 @@ import React from 'react';
 
 interface JobDescriptionProps {
   description: string;
-  key: number;
+  uniqId: number;
 }
 
-const JobDescription = ({ key, description }: JobDescriptionProps) => {
+const JobDescription = ({ uniqId, description }: JobDescriptionProps) => {
   return (
-    <li className="list-disc" key={key}>
+    <li className="list-disc" key={uniqId}>
       <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
         {description}
       </p>

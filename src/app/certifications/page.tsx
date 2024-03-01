@@ -11,7 +11,11 @@ export const metadata: Metadata = {
 const Certificates = () => {
   const renderedCertificate = certificates.map(
     (certification: Certificate, index) => (
-      <CertificationCard key={index} id={index} certification={certification} />
+      <CertificationCard
+        uniqId={index}
+        id={index}
+        certification={certification}
+      />
     )
   );
   return (

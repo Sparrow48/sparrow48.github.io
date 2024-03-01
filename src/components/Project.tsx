@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 function Project() {
   const renderProjects = Object.keys(projects)?.map((key, index) => (
     <ProjectCard
-      key={index}
+      uniqId={index}
       id={key}
       project={projects[key as keyof typeof projects]}
     />

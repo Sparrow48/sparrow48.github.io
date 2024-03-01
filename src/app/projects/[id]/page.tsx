@@ -15,6 +15,10 @@ export async function generateMetadata({
   };
 }
 
+export function generateStaticParams() {
+  return [{ id: 'eDoktor' }, { id: 'retinaLms' }, { id: 'e-shop' }];
+}
+
 const Project = ({ params }: ProjectProps) => {
   const { id } = params;
 

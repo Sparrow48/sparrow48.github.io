@@ -4,19 +4,19 @@ import Image from 'next/image';
 interface CertificationCardProps {
   certification: Certificate;
   id: number;
-  key: number;
+  uniqId: number;
 }
 
 const CertificationCard = ({
   certification,
   id,
-  key,
+  uniqId,
 }: CertificationCardProps) => {
   const { title, issuer, issuerImage, issueDate, certLink } = certification;
   return (
     <>
       <div
-        key={key}
+        key={uniqId}
         className="sm:max-w-sm lg:max-w-md mt-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-900 dark:border-gray-700 transition ease-in-out delay-150 hover:border-dashed hover:bg-slate-100 text-left"
       >
         <div className="p-4">

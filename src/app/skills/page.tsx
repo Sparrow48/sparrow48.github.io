@@ -11,7 +11,7 @@ const Skills = () => {
   const renderSkills = skills.map((skill, index) => {
     return (
       <li key={index} className="flex justify-between items-center mb-2">
-        <Skill skill={skill} key={index} />
+        <Skill skill={skill} uniqId={index} />
       </li>
     );
   });

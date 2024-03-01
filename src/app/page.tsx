@@ -71,7 +71,7 @@ export default function Home() {
             </Link>
             <Link
               href={
-                'https://drive.google.com/file/d/1Bxr6dvgINYhZUoQ6u6OjJIcUql2aBznF/view?usp=sharing'
+                'https://drive.google.com/file/d/1hjJzyrRfCEVbgKJyGjYdfUsx797XflJs/view?usp=sharing'
               }
               className=" ml-2 py-2 px-4 bg-gray-400 rounded-md text-2xl"
               target="_blank"
