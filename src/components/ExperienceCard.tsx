@@ -48,12 +48,12 @@ const ExperienceCard = ({ experience, uniqId }: ExperienceCardProps) => {
       </p>
       <ul className="ml-1 text-base font-normal text-gray-500 dark:text-gray-400">
         {descriptions?.map((description, index) => {
-          return <JobDescription uniqId={index} description={description} />;
+      return <JobDescription key={index}  uniqId={index} description={description} />;
         })}
       </ul>
       <ul className="flex flex-wrap mt-4 text-sm font-normal text-gray-500 dark:text-white">
         {techStack.map((tech, index) => {
-          return <TechItem uniqId={index} tech={tech}></TechItem>;
+          return <TechItem key={index} uniqId={index} tech={tech}></TechItem>;
         })}
       </ul>
     </li>

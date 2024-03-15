@@ -106,7 +106,7 @@ const ProjectDetails = ({ id }: ProjectDetailsProps) => {
               </h3>
               <ul className="mt-2 text-sm text-gray-500 dark:text-gray-400 flex flex-wrap p-1">
                 {project?.techStack?.map((tech, index) => {
-                  return <TechItem uniqId={index} tech={tech}></TechItem>;
+                  return <TechItem key={index} uniqId={index} tech={tech}></TechItem>;
                 })}
               </ul>
             </div>

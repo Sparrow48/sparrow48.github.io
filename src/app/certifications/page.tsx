@@ -12,6 +12,7 @@ const Certificates = () => {
   const renderedCertificate = certificates.map(
     (certification: Certificate, index) => (
       <CertificationCard
+        key={index}
         uniqId={index}
         id={index}
         certification={certification}

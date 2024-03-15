@@ -26,7 +26,7 @@ function ProjectCard({ project, id, uniqId }: ProjectCardProps) {
         </p>
         <ul className="flex flex-wrap mt-4 text-sm font-normal text-gray-500 dark:text-white">
           {techStack.map((tech: string, index: number) => {
-            return <TechItem uniqId={index} tech={tech}></TechItem>;
+            return <TechItem key={index} uniqId={index} tech={tech}></TechItem>;
           })}
         </ul>
       </div>

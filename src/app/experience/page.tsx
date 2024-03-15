@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const Experience = () => {
   const renderExperiences = experiences.map((experience, index) => {
-    return <ExperienceCard experience={experience} uniqId={index} />;
+    return <ExperienceCard key={index} experience={experience} uniqId={index} />;
   });
   return (
     <div className="container px-4 mx-auto leading-7 mt-20">

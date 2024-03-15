@@ -87,7 +87,7 @@ export default function Header() {
       <NavbarMenu>
         <div className="pt-3">
           {menuItems.map((item, index) => (
-            <div className="pt-1">
+            <div className="pt-1" key={`${item}-${index}`}>
               <NavbarMenuItem
                 key={`${item}-${index}`}
                 onClick={() => setIsMenuOpen(false)}
