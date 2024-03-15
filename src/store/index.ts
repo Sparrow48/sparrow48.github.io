@@ -58,7 +58,7 @@ export const experiences: Experience[] = [
     position: 'Software Engineer',
     techStack: ['React.js', 'Socket.io', 'Redux Toolkit', 'AntD', 'FCM'],
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DHT.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/DHT.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
   },
 ];
 
@@ -67,14 +67,14 @@ export const skills: Skill[] = [
     name: 'React',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/react.svg?token=GHSAT0AAAAAAB5FQU6KZD3YI45TJUTG5XXQZABUBCQ',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/react.svg?token=GHSAT0AAAAAAB5FQU6KZD3YI45TJUTG5XXQZABUBCQ',
     exps: '2 years',
   },
   {
     name: 'Redux Toolkit',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/reduxToolkit.png?token=GHSAT0AAAAAAB5FQU6LT64WSWI2XVT7VM76ZABTCPA',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/reduxToolkit.png?token=GHSAT0AAAAAAB5FQU6LT64WSWI2XVT7VM76ZABTCPA',
     exps: '2 years',
   },
 
@@ -82,14 +82,14 @@ export const skills: Skill[] = [
     name: 'Git',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/git-logo.png?token=GHSAT0AAAAAAB5FQU6LS36M4E2SQWMFARRUZABTB2A',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/git-logo.png?token=GHSAT0AAAAAAB5FQU6LS36M4E2SQWMFARRUZABTB2A',
     exps: '3.5 years',
   },
   {
     name: 'JavaScript',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/js.png?token=GHSAT0AAAAAAB5FQU6KCHJMMVTQCV52LJKQZABUB6Q',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/js.png?token=GHSAT0AAAAAAB5FQU6KCHJMMVTQCV52LJKQZABUB6Q',
     exps: '2.5 years',
   },
 
@@ -97,7 +97,7 @@ export const skills: Skill[] = [
     name: 'Problem Solving',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/ps.png?token=GHSAT0AAAAAAB5FQU6K72J4H5VN6HF7SR2AZABSIKA',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/ps.png?token=GHSAT0AAAAAAB5FQU6K72J4H5VN6HF7SR2AZABSIKA',
     exps: '100+ solved',
   },
 
@@ -105,28 +105,28 @@ export const skills: Skill[] = [
     name: 'Tailwind',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/tailwind.png?token=GHSAT0AAAAAAB5FQU6KGRPCIWINKLXABXCUZABSSAQ',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/tailwind.png?token=GHSAT0AAAAAAB5FQU6KGRPCIWINKLXABXCUZABSSAQ',
     exps: '1.5 years',
   },
   {
     name: 'AntD',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/antD.png?token=GHSAT0AAAAAAB5FQU6L7YERMH3UFAXUWHAOZABSSCA',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/antD.png?token=GHSAT0AAAAAAB5FQU6L7YERMH3UFAXUWHAOZABSSCA',
     exps: '1.5 years',
   },
   {
     name: 'WebSocket',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/webSocket.png?token=GHSAT0AAAAAAB5FQU6LMWKWWRYKVWGC2HV2ZABSSBA',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/webSocket.png?token=GHSAT0AAAAAAB5FQU6LMWKWWRYKVWGC2HV2ZABSSBA',
     exps: '1.5 year',
   },
   {
     name: 'HTML',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/htmlLogo.png?token=GHSAT0AAAAAAB5FQU6LSQVRX4SQEKHQMY3QZABTCFQ',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/htmlLogo.png?token=GHSAT0AAAAAAB5FQU6LSQVRX4SQEKHQMY3QZABTCFQ',
     exps: '2.5 years',
   },
   {
@@ -140,42 +140,42 @@ export const skills: Skill[] = [
     name: 'Linux',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/linux.png?token=GHSAT0AAAAAAB5FQU6KV4IVR3B66UPW5VCKZABTCNQ',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/linux.png?token=GHSAT0AAAAAAB5FQU6KV4IVR3B66UPW5VCKZABTCNQ',
     exps: '4.5 years',
   },
   {
     name: 'Node.js',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/node.png?token=GHSAT0AAAAAAB5FQU6KVR6BJYJLXOCXAIG2ZABUC2Q',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/node.png?token=GHSAT0AAAAAAB5FQU6KVR6BJYJLXOCXAIG2ZABUC2Q',
     exps: '1 year',
   },
   {
     name: 'Express.js',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/express.png?token=GHSAT0AAAAAAB5FQU6KWIWH7EJCISRGFJACZABTBQA',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/express.png?token=GHSAT0AAAAAAB5FQU6KWIWH7EJCISRGFJACZABTBQA',
     exps: '1 year',
   },
   {
     name: 'MongoDB',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/mongodb.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/mongodb.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
     exps: '1 year',
   },
   {
     name: 'Nest.js',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/nest.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/nest.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
     exps: '6 months',
   },
   {
     name: 'TypeScript',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/TS.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/TS.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
     exps: '6 months',
   },
 ];
@@ -212,7 +212,7 @@ export const projects: Record<string, Project> = {
     associatedWith: {
       companyName: 'eDoktor.',
       companyLogo:
-        'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/eDok.png',
+        'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/eDok.png',
     },
   },
   retinaLms: {
@@ -232,7 +232,7 @@ export const projects: Record<string, Project> = {
     associatedWith: {
       companyName: 'Durbin Labs Ltd.',
       companyLogo:
-        'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/DHT.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
+        'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/DHT.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
     },
   },
   'e-shop': {
@@ -266,7 +266,7 @@ const issuer: Record<string, Issuer> = {
   udemy: {
     NAME: 'Udemy',
     IMAGE:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/eDok.png', // need to use udemy logo
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/eDok.png', // need to use udemy logo
   },
 };
 
