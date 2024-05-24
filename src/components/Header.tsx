@@ -47,34 +47,52 @@ export default function Header() {
         />
         <NavbarBrand>
           <Link color="foreground" href="/">
-            <p className="font-bold text-inherit">MD. ABU NASIB</p>
+            <p className="font-bold text-inherit hover:text-sky-500">
+              MD. ABU NASIB
+            </p>
           </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="/">
+          <Link className="hover:text-sky-500" color="foreground" href="/">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/experience">
+          <Link
+            className="hover:text-sky-500"
+            color="foreground"
+            href="/experience"
+          >
             Experience
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/skills">
+          <Link
+            className="hover:text-sky-500"
+            color="foreground"
+            href="/skills"
+          >
             Skills
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/projects">
+          <Link
+            className="hover:text-sky-500"
+            color="foreground"
+            href="/projects"
+          >
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/certifications">
+          <Link
+            className="hover:text-sky-500"
+            color="foreground"
+            href="/certifications"
+          >
             Certifications
           </Link>
         </NavbarItem>

@@ -3,10 +3,10 @@ import Link from 'next/link';
 import React from 'react';
 import { BsGithub, BsLinkedin, BsFillFileEarmarkPdfFill } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
-import Profile from './../assets/Profile.jpg';
 import { about } from '../store';
-import Image from 'next/image';
 import { About } from '@/@types';
+import Profile from './../assets/Profile.jpg';
+import ProfileImage from '@/components/ProfielImage';
 
 export const metadata: Metadata = {
   title: 'Nasib',
@@ -38,15 +38,13 @@ export default function Home() {
           <p className="mt-6">{opening}</p>
         </div>
         <div className="flex flex-col justify-center">
-          <div className="flex justify-center ">
-            <Image
-              src={Profile}
-              alt="Profile"
-              width={300}
-              height={300}
-              className=" rounded-md"
-            />
-          </div>
+          <ProfileImage
+            src={Profile}
+            alt="Profile"
+            width={300}
+            height={300}
+            initialScale={0.25}
+          />
           <div className="mt-10 flex w-auto justify-center mb-10 lg:justify-start">
             <Link
               href={'https://github.com/Sparrow48'}

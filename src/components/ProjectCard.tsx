@@ -15,7 +15,7 @@ function ProjectCard({ project, id, uniqId }: ProjectCardProps) {
     <Link
       key={uniqId}
       href={`/projects/${id}`}
-      className="transition ease-in-out delay-150 bg-white border border-gray-200 rounded-lg shadow sm:max-w-sm lg:max-w-md dark:bg-neutral-900 dark:border-gray-700 hover:border-dashed hover:dark:bg-black hover:bg-slate-100"
+      className="transition ease-in-out delay-150 bg-white border border-gray-200 rounded-lg shadow sm:max-w-sm lg:max-w-md dark:bg-neutral-800 dark:border-gray-700 hover:shadow-xl hover:shadow-slate-400  hover:border-dashed hover:dark:bg-neutral-900 hover:bg-slate-100 hover:dark:shadow-slate-500"
     >
       <div className="p-5">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

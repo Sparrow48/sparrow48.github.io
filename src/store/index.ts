@@ -16,7 +16,7 @@ export const about: About = {
     link: 'https://edoktor.rs/',
   },
   description:
-    'I have almost 2 years of experience in developing software using React.js, Redux, Antd, Nest.js and TypeScript.',
+    'I have over 2 years of experience in developing software using React.js, Redux, Antd, Nest.js and TypeScript.',
   opening:
     'Looking for an opportunity where I can use my skills to contribute to an organization’s development team.',
 };
@@ -27,10 +27,10 @@ export const experiences: Experience[] = [
     startDate: 'June 2023',
     endDate: 'Present',
     descriptions: [
-      'Developing scalable Telemedicine applications with cutting-edge technology',
-      'Developing both doctor and admin front-end web applications.',
+      'Developing scalable Telemedicine applications with cutting-edge technology.',
+      'Built reusable and maintainable web applications for doctors and admin interfaces from scratch.',
       'Resolving issues and developed REST APIs using TypeScript and Nest.js',
-      'Performed data migration',
+      'Performed data migration for the eDoktor production database.',
     ],
     position: 'Software Engineer',
     techStack: [
@@ -44,7 +44,7 @@ export const experiences: Experience[] = [
       'MongoDB',
     ],
     image:
-      'https://raw.githubusercontent.com/Sparrow48/nasib/main/src/assets/eDok.png',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/eDok.png',
   },
   {
     companyName: 'Durbin Healthtech',
@@ -52,8 +52,8 @@ export const experiences: Experience[] = [
     endDate: 'May 2023',
     descriptions: [
       'Developed front-end web of Learning Management Systems and Telemedicine applications with cutting-edge technology',
-      'Optimized application for maximum speed and scalability.',
-      'Developed new features and integrate RESTful APIs.',
+      'Initially, I was assigned to resolve existing bugs. Later I developed and improved some new features, such as the admission module, classroom module, etc.',
+      'Integrated RESTful APIs.',
     ],
     position: 'Software Engineer',
     techStack: ['React.js', 'Socket.io', 'Redux Toolkit', 'AntD', 'FCM'],
@@ -189,14 +189,13 @@ export const projects: Record<string, Project> = {
       'eDoktor is a telemedicine platform that connects patients with doctors. Patients can book appointments with doctors and get a consultation from anywhere. Doctors can manage their appointments, patients, and prescriptions.',
     workDescriptions: [
       'Developing scalable Telemedicine applications with cutting-edge technology',
-      'Optimize application for maximum speed and scalability.',
-      'Developing both doctor and admin front-end web applications.',
-      'Integrate RESTful APIs.',
-      'Resolving issues and developing REST APIs using TypeScript and Nest.js',
-      'Integrate a video calling feature using Zoom Video SDK.',
-      'Integrate a notification system using WebSocket and FCM.',
-      'Developed front end web for doctors to manage their appointments, patients, prescriptions.',
-      'Performed data migration.',
+      'Built reusable and maintainable web applications for doctors and admin interfaces from scratch',
+      'Integrate RESTful APIs',
+      'Integrated a video calling feature using Zoom Video SDK for Doctor Web.',
+      'Resolving issues and developing REST APIs using TypeScript and Nest.js.',
+      'Implemented doctor review and rating features. Also, Implemented an issue report feature for appointments.',
+      'Implemented an API to fetch payment information from Corvus Pay and generate invoice PDFs.',
+      'Performed data migration for the eDoktor production database',
     ],
     techStack: [
       'React.js',
@@ -222,10 +221,10 @@ export const projects: Record<string, Project> = {
     longDescription:
       'RetinaLMS is a scalable learning management system, with admission, online payment, book distribution, and an online exam system.',
     workDescriptions: [
-      'Optimize application for maximum speed and scalability.',
-      'Develop new features and functionality on the website.',
-      'Integrate RESTful APIs.',
-      'Fixed existing bugs.',
+      'Initially, I was assigned to resolve existing bugs. Later I developed and improved some new features, such as the admission module, classroom module, etc.',
+      'Integrated RESTful APIs.',
+      'worked on the live exam module with offline answer caching and automatic submission when back online.',
+      'Enhanced the practice exam and tutorial modules.',
     ],
     techStack: ['React.js', 'Redux Toolkit', 'AntD'],
     link: 'https://retinalms.com',

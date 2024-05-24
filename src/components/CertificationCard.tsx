@@ -18,7 +18,7 @@ const CertificationCard = ({
     <>
       <div
         key={uniqId}
-        className="sm:max-w-sm lg:max-w-md mt-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-900 dark:border-gray-700 transition ease-in-out delay-150 hover:border-dashed hover:bg-slate-100 text-left"
+        className="transition ease-in-out delay-150 bg-white border border-gray-200 rounded-lg shadow sm:max-w-sm lg:max-w-md dark:bg-neutral-800 dark:border-gray-700 hover:shadow-xl hover:shadow-slate-400  hover:border-dashed hover:dark:bg-neutral-900 hover:bg-slate-100 hover:dark:shadow-slate-500"
       >
         <div className="p-4">
           <div className="flex items-center">
