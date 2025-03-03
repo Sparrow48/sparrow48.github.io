@@ -16,7 +16,7 @@ export const about: About = {
     link: 'https://edoktor.rs/',
   },
   description:
-    'I have over 2 years of experience in developing software using React.js, Redux, Antd, Nest.js and TypeScript.',
+    'I have over 3 years of experience in developing software using React.js, Redux, Antd, Nest.js and TypeScript.',
   opening:
     'Looking for an opportunity where I can use my skills to contribute to an organization’s development team.',
 };
@@ -58,7 +58,7 @@ export const experiences: Experience[] = [
     position: 'Software Engineer',
     techStack: ['React.js', 'Socket.io', 'Redux Toolkit', 'AntD', 'FCM'],
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/DHT.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/DHT.png?raw=true',
   },
 ];
 
@@ -67,37 +67,37 @@ export const skills: Skill[] = [
     name: 'React',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/react.svg?token=GHSAT0AAAAAAB5FQU6KZD3YI45TJUTG5XXQZABUBCQ',
-    exps: '2 years',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/a51fe9e3521bc575140da812461311224fe3233d/src/assets/react.png?raw=true',
+    exps: '3.5 years',
   },
   {
     name: 'Redux Toolkit',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/reduxToolkit.png?token=GHSAT0AAAAAAB5FQU6LT64WSWI2XVT7VM76ZABTCPA',
-    exps: '2 years',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/reduxToolkit.png?raw=true',
+    exps: '3 years',
   },
 
   {
     name: 'Git',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/git-logo.png?token=GHSAT0AAAAAAB5FQU6LS36M4E2SQWMFARRUZABTB2A',
-    exps: '3.5 years',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/git-logo.png?raw=true',
+    exps: '5 years',
   },
   {
     name: 'JavaScript',
-    level: 'intermediate',
+    level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/js.png?token=GHSAT0AAAAAAB5FQU6KCHJMMVTQCV52LJKQZABUB6Q',
-    exps: '2.5 years',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/js.png?raw=true',
+    exps: '4 years',
   },
 
   {
     name: 'Problem Solving',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/ps.png?token=GHSAT0AAAAAAB5FQU6K72J4H5VN6HF7SR2AZABSIKA',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/ps.png?raw=true',
     exps: '100+ solved',
   },
 
@@ -105,78 +105,78 @@ export const skills: Skill[] = [
     name: 'Tailwind',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/tailwind.png?token=GHSAT0AAAAAAB5FQU6KGRPCIWINKLXABXCUZABSSAQ',
-    exps: '1.5 years',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/tailwind.png?raw=true',
+    exps: '2.5 years',
   },
   {
     name: 'AntD',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/antD.png?token=GHSAT0AAAAAAB5FQU6L7YERMH3UFAXUWHAOZABSSCA',
-    exps: '1.5 years',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/antD.png?raw=true',
+    exps: '3 years',
   },
   {
     name: 'WebSocket',
     level: 'intermediate',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/webSocket.png?token=GHSAT0AAAAAAB5FQU6LMWKWWRYKVWGC2HV2ZABSSBA',
-    exps: '1.5 year',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/webSocket.png?raw=true',
+    exps: '2.5 year',
   },
   {
     name: 'HTML',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/htmlLogo.png?token=GHSAT0AAAAAAB5FQU6LSQVRX4SQEKHQMY3QZABTCFQ',
-    exps: '2.5 years',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/htmlLogo.png?raw=true',
+    exps: '3.5 years',
   },
   {
     name: 'CSS',
     level: 'expert',
     image:
       'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png',
-    exps: ' 2.5 years',
+    exps: ' 3.5 years',
   },
   {
     name: 'Linux',
     level: 'expert',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/linux.png?token=GHSAT0AAAAAAB5FQU6KV4IVR3B66UPW5VCKZABTCNQ',
-    exps: '4.5 years',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/linux.png?raw=true',
+    exps: '5.5 years',
   },
   {
     name: 'Node.js',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/node.png?token=GHSAT0AAAAAAB5FQU6KVR6BJYJLXOCXAIG2ZABUC2Q',
-    exps: '1 year',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/node.png?raw=true',
+    exps: '2 year',
   },
   {
     name: 'Express.js',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/express.png?token=GHSAT0AAAAAAB5FQU6KWIWH7EJCISRGFJACZABTBQA',
-    exps: '1 year',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/express.png?raw=true',
+    exps: '2 year',
   },
   {
     name: 'MongoDB',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/mongodb.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
-    exps: '1 year',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/mongodb.png?raw=true',
+    exps: '2 year',
   },
   {
     name: 'Nest.js',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/nest.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
-    exps: '6 months',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/nest.png?raw=true',
+    exps: '1.5 years',
   },
   {
     name: 'TypeScript',
     level: 'beginner',
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/TS.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
-    exps: '6 months',
+      'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/TS.png?raw=true',
+    exps: '1.5 years',
   },
 ];
 
@@ -231,7 +231,7 @@ export const projects: Record<string, Project> = {
     associatedWith: {
       companyName: 'Durbin Labs Ltd.',
       companyLogo:
-        'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/DHT.png?token=GHSAT0AAAAAAB5FQU6K4VTIIVASLWH2WKG6ZABSR4A',
+        'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/DHT.png?raw=true',
     },
   },
   'e-shop': {
