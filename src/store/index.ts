@@ -10,27 +10,27 @@ import {
 export const about: About = {
   name: 'Md Abu Nasib',
   jobDescription:
-    'a software developer from Bangladesh. Currently working as a Software Engineer at',
+    'a software developer from Bangladesh. I am a software engineer with a passion for building scalable and high-performance web applications.',
   company: {
-    name: 'eDoctor',
-    link: 'https://edoktor.rs/',
+    name: 'Northprim',
+    link: 'https://northprim.com/',
   },
   description:
-    'I have over 3 years of experience in developing software using React.js, Redux, Antd, Nest.js and TypeScript.',
+    'I have over 3 years of experience developing scalable and high-performance web applications in healthtech, LMS, and Well-being platforms. Proficient in React.js, Redux, TypeScript, Nest.js, and MongoDB, with a proven ability to build intuitive and maintainable applications. Notable achievements include designing live exam modules with offline caching,integrating Zoom SDK for video consultations, and implementing secure payment gateways. Passionate about delivering scalable, performance-optimized solutions.',
   opening:
     'Looking for an opportunity where I can use my skills to contribute to an organization’s development team.',
 };
 
 export const experiences: Experience[] = [
   {
-    companyName: 'eDoktor',
+    companyName: 'Northprim',
     startDate: 'June 2023',
-    endDate: 'Present',
+    endDate: 'March 2025',
     descriptions: [
-      'Developing scalable Telemedicine applications with cutting-edge technology.',
+      'Developed scalable Well-being applications with cutting-edge technology.',
+      'Developed REST APIs using TypeScript and Nest.js.',
       'Built reusable and maintainable web applications for doctors and admin interfaces from scratch.',
-      'Resolving issues and developed REST APIs using TypeScript and Nest.js',
-      'Performed data migration for the eDoktor production database.',
+      'Performed data migration.',
     ],
     position: 'Software Engineer',
     techStack: [
@@ -44,16 +44,16 @@ export const experiences: Experience[] = [
       'MongoDB',
     ],
     image:
-      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/eDok.png',
+      'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/northprim_logo.jpeg',
   },
   {
     companyName: 'Durbin Healthtech',
     startDate: 'May 2022',
     endDate: 'May 2023',
     descriptions: [
-      'Developed front-end web of Learning Management Systems and Telemedicine applications with cutting-edge technology',
-      'Initially, I was assigned to resolve existing bugs. Later I developed and improved some new features, such as the admission module, classroom module, etc.',
-      'Integrated RESTful APIs.',
+      'Developed front-end web of Learning Management Systems and Telemedicine applications with cutting-edge technology.',
+      'Developed new features and integrated RESTful APIs.',
+      'Integrated bkash payment gateway(front-end).',
     ],
     position: 'Software Engineer',
     techStack: ['React.js', 'Socket.io', 'Redux Toolkit', 'AntD', 'FCM'],
@@ -184,18 +184,18 @@ export const projects: Record<string, Project> = {
   eDoktor: {
     title: 'eDoktor',
     description:
-      'eDoktor is a telemedicine platform that connects patients with doctors.',
+      'eDoktor is a well-being platform that connects patients with doctors.',
     longDescription:
-      'eDoktor is a telemedicine platform that connects patients with doctors. Patients can book appointments with doctors and get a consultation from anywhere. Doctors can manage their appointments, patients, and prescriptions.',
+      'eDoktor is a well-being platform that connects patients with doctors. Patients can book appointments with doctors and get a consultation from anywhere. Doctors can manage their appointments, patients, and prescriptions.',
     workDescriptions: [
-      'Developing scalable Telemedicine applications with cutting-edge technology',
-      'Built reusable and maintainable web applications for doctors and admin interfaces from scratch',
-      'Integrate RESTful APIs',
+      'Developed REST APIs using TypeScript and Nest.js.',
+      'Implemented the CorvusPay payment gateway, ensuring secure transactions and seamless payment pro-cessing for medical consultations.',
+      'Build reusable and maintainable web applications from scratch for the doctor and admin.',
+      'Integrated RESTful APIs.',
       'Integrated a video calling feature using Zoom Video SDK for Doctor Web.',
-      'Resolving issues and developing REST APIs using TypeScript and Nest.js.',
-      'Implemented doctor review and rating features. Also, Implemented an issue report feature for appointments.',
-      'Implemented an API to fetch payment information from Corvus Pay and generate invoice PDFs.',
-      'Performed data migration for the eDoktor production database',
+      'Implemented and integrated an article and health questionnaire features.',
+      'Developed a feature-rich Admin Dashboard with analytics for tracking user activity, patient consultations, and promotional statistics.',
+      'Performed data migration.',
     ],
     techStack: [
       'React.js',
@@ -209,9 +209,9 @@ export const projects: Record<string, Project> = {
     ],
     link: 'https://edoktor.rs/',
     associatedWith: {
-      companyName: 'eDoktor.',
+      companyName: 'Northprim.',
       companyLogo:
-        'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/eDok.png',
+        'https://raw.githubusercontent.com/Sparrow48/sparrow48.github.io/main/src/assets/northprim_logo.jpeg',
     },
   },
   retinaLms: {
@@ -221,15 +221,17 @@ export const projects: Record<string, Project> = {
     longDescription:
       'RetinaLMS is a scalable learning management system, with admission, online payment, book distribution, and an online exam system.',
     workDescriptions: [
-      'Initially, I was assigned to resolve existing bugs. Later I developed and improved some new features, such as the admission module, classroom module, etc.',
+      'Developed and improved some new features, such as the admission module, classroom module, exam module, the content management module, etc',
       'Integrated RESTful APIs.',
-      'worked on the live exam module with offline answer caching and automatic submission when back online.',
-      'Enhanced the practice exam and tutorial modules.',
+      'Worked on the live exam module with offline answer caching and automatic submission when back online.',
+      'Integrated react-player to show YouTube videos directly on the LMS website.',
+      'Integrated bkash payment gateway.',
+      'Developed a drawing canvas to evaluate the answer script.',
     ],
-    techStack: ['React.js', 'Redux Toolkit', 'AntD'],
+    techStack: ['React.js', 'Redux Toolkit', 'AntD', 'WebSocket', 'axios'],
     link: 'https://retinalms.com',
     associatedWith: {
-      companyName: 'Durbin Labs Ltd.',
+      companyName: 'Durbin Healthtech.',
       companyLogo:
         'https://github.com/Sparrow48/sparrow48.github.io/blob/main/src/assets/DHT.png?raw=true',
     },

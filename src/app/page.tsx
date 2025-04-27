@@ -17,13 +17,13 @@ export default function Home() {
 
   return (
     <div className="container mx-auto leading-7">
-      <div className=" lg:px-4 lg:space-x-5 lg:mt-12 flex lg:flex-row flex-col-reverse dark:text-white lg:text-left">
+      <div className=" lg:px-4 lg:space-x-5 lg:mt-12 flex lg:flex-row flex-col-reverse dark:text-white lg:text-justify">
         <div className="lg:pr-16 px-2 lg:px-0">
           <span className=" text-5xl font-medium">Hey there,</span>
           <p className="mt-6">
             I'm <span className=" font-semibold ">{name}</span>,{' '}
             {jobDescription}{' '}
-            <a
+            {/* <a
               href={company.link}
               target="_blank"
               rel="noreferrer"
@@ -32,10 +32,10 @@ export default function Home() {
               }
             >
               {company.name}
-            </a>
+            </a> */}
           </p>
           <p className="mt-6">{description}</p>
-          <p className="mt-6">{opening}</p>
+          {/* <p className="mt-6">{opening}</p> */}
         </div>
         <div className="flex flex-col justify-center">
           <ProfileImage
@@ -69,7 +69,7 @@ export default function Home() {
             </Link>
             <Link
               href={
-                'https://drive.google.com/file/d/1hjJzyrRfCEVbgKJyGjYdfUsx797XflJs/view?usp=sharing'
+                'https://drive.google.com/file/d/1WOMDjWaVSQvvWDWVuJld2t3AQ8p52OBa/view?usp=drive_link'
               }
               className=" ml-2 py-2 px-4 bg-gray-400 rounded-md text-2xl"
               target="_blank"
